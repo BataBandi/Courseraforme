@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+h1 {
+	font-family:  italic;
+	text-align:  center;
+}
+h2 {
+	margin:  auto;
+	border:  6px solid;
+	text-align: center;
+	padding: 0px;
+	width:  67px;
+	float: right;
+	clear: both;
+	background-color: gray;
+}
+
+div > div {
+	margin: 10px;
+	border:  4px solid;
+	background-color: darkgray;
+}
+
+@media (min-width: 992px){
+	.col-lg-3{
+		float: left;
+		clear: right;
+	}
+	.col-lg-3{
+		width: 30%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-2, .col-md-1 {
+	}
+	.col-md-1{
+		width: 100%;
+	}
+	.col-md-2{
+		width: 50%;
+	}
+}
+@media (max-width: 767px){
+	.col-sm-1{
+
+	}
+	.col-sm-1{
+		width: 100%;
+	}
+}
+.Beef {
+	background-color: orange;
+}
+.Pork {
+	background-color: red;
+}
+.Steak{
+	background-color: hotpink;
+}
