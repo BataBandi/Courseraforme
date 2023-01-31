@@ -1,0 +1,53 @@
+.navbar{
+	background-color: darkgoldenrod;
+	width: 100%;
+	border-bottom: 2px solid;
+	border-top: 2px solid;
+	border-color: black;
+	padding-right: 0px ;
+	margin-top: 0px;
+}
+/*Header*/
+.container{
+	margin-left: auto;
+}
+button{
+	border: solid darkred;
+}
+ul li{
+	width: 100%;
+	text-align: center;
+	border-bottom: solid 1px;
+	color: black;
+}
+li:nth-child(3){
+	border: none;
+	margin-bottom: 0px;
+}
+a:link hover visited{
+	text-decoration: none;
+}
+/*Nagy-konténer*/
+.content-box{
+	font-family: Roboto Condensed;
+	background-color: #4779F4;
+	width: auto;
+	margin: 20px;
+	paddig: 10px;
+}
+.row{
+	margin: 20px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	position: relative;
+}
+ul {
+	list-style-type: none;
+}
+/*Links*/
+ul li a {text-decoration:none}
